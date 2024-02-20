@@ -10,10 +10,6 @@ const Book = sequelize.define(
       unique: true,
       allowNull: false,
     },
-    author: {
-      type: DataTypes.STRING,
-      defaultValue: "some author",
-    },
   },
   { timestamps: false }
 );
